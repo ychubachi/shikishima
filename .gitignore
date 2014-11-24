@@ -19,3 +19,4 @@ project/plugins/project/
 # Ensime specific
 .ensime
 .ensime_lucene/
+.ensime_cache/
