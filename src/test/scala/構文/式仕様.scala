@@ -3,6 +3,12 @@ import org.scalatest.FunSuite
 import 構文._
 
 class 式仕様 extends FunSuite {
+  test("真偽値") {
+//    intercept[NoSuch] {
+      new 式
+//    }
+  }
+
   test("式の仕様") {
     val x = 真偽値(true)
     println("abc")
