@@ -4,9 +4,7 @@ import 構文._
 
 class 式仕様 extends FunSuite {
   test("真偽値") {
-//    intercept[NoSuch] {
-      new 式
-//    }
+    // new 式
   }
 
   test("式の仕様") {
