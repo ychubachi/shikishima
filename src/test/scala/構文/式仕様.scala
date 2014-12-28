@@ -11,15 +11,16 @@ class 式仕様 extends FunSuite {
   test("分岐") {
     val z = 分岐(
       論理定数(true), // 条件
-      複合式(List(論理定数(true),論理定数(true))), // 成立
-      複合式(List(論理定数(true),論理定数(true)))) // 不成立
+      複合式(論理定数(true),論理定数(true)), // 成立
+      複合式(論理定数(true),論理定数(true))) // 不成立
   }
 
   test("式の仕様") {
     val x = 論理定数(true)
     assert(x.値 == true)
 
-    val z = 複合式(List(論理定数(true),論理定数(true)))
-
+    val z = 複合式(論理定数(true),論理定数(true))
+    
+    println(複合式(論理定数(true),論理定数(true)).式列)
   }
 }

@@ -22,7 +22,7 @@ abstract class 式
 case class 代入(val 先:変数, val 元:式) extends 式
 
 // Compound
-case class 複合式(val 値:List[式]) extends 式
+case class 複合式(val 式列:式*) extends 式
 
 // Conditional
 case class 分岐(val 条件:式, val 成立:式, val 不成立:式) extends 式
