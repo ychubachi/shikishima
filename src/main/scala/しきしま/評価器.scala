@@ -1,4 +1,4 @@
-package 本体
+package しきしま
 
 object 評価器 {
 

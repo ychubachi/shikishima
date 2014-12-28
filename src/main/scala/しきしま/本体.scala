@@ -1,4 +1,4 @@
-package 本体
+package しきしま
 
 import 構文._
 

@@ -1,6 +1,6 @@
 import org.scalatest.FunSuite
 
-import 構文._
+import しきしま._
 
 class 式仕様 extends FunSuite {
   test("代入") {

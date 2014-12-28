@@ -1,4 +1,4 @@
-package 構文
+package しきしま
 
 /**
  * Graalとの違い
