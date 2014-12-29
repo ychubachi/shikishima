@@ -22,7 +22,11 @@ class 式仕様 extends FunSuite {
     assert(x.値 == true)
 
     val z = 複合式(論理定数(true),論理定数(true))
-    
-    println(複合式(論理定数(true),論理定数(true)).式列)
+  }
+  
+  test("任意定数") {
+    assert(任意定数(true).値 == true)
+    assert(任意定数(10).値 == 10)
+    assert(任意定数("こんにちは").値 == "こんにちは")
   }
 }
