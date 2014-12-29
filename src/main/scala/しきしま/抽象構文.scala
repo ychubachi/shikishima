@@ -80,5 +80,5 @@ case class 変数(名前: String) extends 式
 
 // 追加分
 case class 文字列定数(値: String) extends 定数
-case class 任意定数(値: Any) extends 定数
+case class 任意定数(値: Any) extends 定数 // Any_constant (*)
 // case class 脱出(val 条件:式型) extends 式型
