@@ -1,3 +1,5 @@
+package しきしま
+
 import org.scalatest.FunSuite
 
 import しきしま._
